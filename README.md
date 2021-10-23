@@ -1,27 +1,31 @@
-# Game
+https://stackblitz.com/github/zaharovich/game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
+Что такое СПА?
+single page application страница, которая постоянно взаимодействует с пользователем, динамически обновляется без перезагркзки страницы.
+_____________
 
-## Development server
+Чем разница между фреймворком и библиотекой?
+Библиотека - это уже готовый функционал для решения какой то задачи, например если мне нужно по клику вызвать попап, то что бы не писать это все я воспользуюсь fancybox.
+Фреймворк - это целая экосиситема с наборами решений патернов и компонентов и со своими правилами пользвоания.
+_____________
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Назовите несколько преимуществ angular.
+- разделение на компоненты
+- производительность
+- типизация данных
+- популярность
+- можно быстро вникнуть в суть проекта(легко читается код и связи)
+_____________
 
-## Code scaffolding
+Зачем нужен CLI в Angular?
+Стартовый набор для разработки.
+_____________
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Назовите команду CLI для создания компонента
 
-## Build
+ng new name - создание проекта
+ng g c name - создание компонента
+Или через правю кнопку мышки по папке в которой нужно создать компонент. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Что вы понимаете под DRY?
+Don’t repeat yourself. Не копипастить елементы. Что бы вызывалось в одном месте, что бы если нужно дбыло поправить, что то, то поправить в одном месте и поменяется везде. (Не клонить одно и тоже ))))
